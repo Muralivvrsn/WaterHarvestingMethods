@@ -1,31 +1,43 @@
 body{
     text-align: center;
+    background-color: lightseagreen;
 }
 h1{
     font-size: 3rem;
 }
+
 .cards{
-    margin-top: 150px;
+    text-align: start;
+    margin-top: 50px;
     width: 100%;
     height: max-content;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
-.card1,.card2{
-    border-radius: 10px;
+.card2{
+    box-shadow: 2px 3px 6px 6px white;
+    border: 1px solid white;
+    margin: auto;
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+}
+.card2 p{
+    color: rgb(26, 12, 12);
+    font-size: 2em;
+}
+.card2 button{
     cursor: pointer;
-    border: 2px solid black;
-    width: 300px;
-    height: 300px;
+    margin-left: 40%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: oblique;
+    color: green;
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: red;
 }
-.card1:hover{
-    transition: all 0.3s ease;
+.card2 button:hover{
     transform: scale(1.1);
-    box-shadow: 5px 6px 6px 6px rgba(0,0,0,0.5);
-}
-.card2:hover{
-    transition: all 0.3s ease;
-    transform: scale(1.1);
-    box-shadow: 5px 6px 6px 6px rgba(0,0,0,0.5);
+    transition: all 0.2s ease-out;
 }
